@@ -1,5 +1,5 @@
 ---------------------------------------
-kccmp - kernel configuration comparison
+kccmp - kernel configuration comparison - qt5 port of original
 ---------------------------------------
 
 kccmp is a simple tool for comparing two linux kernel ".config" files.
@@ -18,7 +18,7 @@ example:
 --------
 Building
 --------
-kccmp depends on Qt 4.x. It uses qmake for generating
+kccmp depends on Qt 5.x. It uses qmake for generating
 a standard Makefile.
 The standard build is as easy as:
 example:
@@ -27,3 +27,11 @@ example:
 
 http://stoopidsimple.com/kccmp
 Salem Ganzhorn <eyekode@yahoo.com>
+
+--------
+Porting notice
+--------
+
+This is a fork-continuation of the original; with that single line changed to work with QT5.
+
+Kristian Poul Herkild aka dylansmrjones (at github etc.)
